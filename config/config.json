@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "loan_dev",
+    "host": "localhost",
+    "dialect": "sqlite",
+    "storage": "./tmp/loan_dev.sqlite"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "loan_test",
+    "host": "localhost",
+    "dialect": "sqlite",
+    "storage": "./tmp/loan_test.sqlite"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "loan_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
